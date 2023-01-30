@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:id="@+id/llM"
+
+    >
+
+    <EditText
+        android:id="@+id/EdtWet"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="12"
+        android:hint="Enter The Weight in(kg)"
+
+        android:inputType="number"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EdtHtFt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:hint="Enter The Height in(ft)"
+        android:inputType="number"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EdtHin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="12"
+        android:hint="Enter The Height in(Inch)"
+        android:inputType="number"
+        android:minHeight="48dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/BtnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Submit"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+
+        >
+
+    </Button>
+    <TextView
+        android:id="@+id/textVre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+</LinearLayout>
